@@ -1,0 +1,46 @@
+.app {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.search-input {
+  height: 30px;
+  padding: 5px;
+  min-width: 600px;
+}
+
+table {
+  margin-top: 32px;
+  min-width: 600px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.error {
+   color: red;
+   font-size: 80%;
+   display: flex;
+   flex-direction: column;
+ }
+
+.error-contents {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 16px;
+  margin: 20px;
+  background-color: #eee;
+}
+
+.loading {
+  color: blue;
+  font-style: italic;
+}
+
+
